@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Mockup-MacBook-Pro.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="56">
@@ -35,7 +36,6 @@
                 <div class="col-lg-7 my-auto">
                     <div class="mx-auto header-content">
                         <h1 class="mb-5">WhatsApp Desktop&nbsp;</h1><strong>Latest Version :&nbsp;
-
                             <?php
                     $content = file_get_contents('https://web.whatsapp.com/desktop/mac/releases?platform=darwin&arch=x64');
                     $t = preg_match('/name":"(.*?)\",/s', $content, $version);
@@ -45,19 +45,15 @@
                     </div>
                 </div>
                 <div class="col-lg-5 my-auto">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device"
-                                style="background-image:url('assets/img/iphone_6_plus_white_port.png');">
-                                <div class="screen"><img class="img-fluid"
-                                        src="assets/img/a7c37ad5-8693-4633-a651-7720759fec11.jpg"></div>
-                                <div class="button"></div>
-                            </div>
-                        </div>
+                    <div class="macbook-mockup"><img class="device" src="assets/img/macbook.svg">
+                        <div class="screen"><img src="assets/img/whatsapp%20logo.jpg"
+                                style="width: 370px;height: 232px;"></div>
                     </div>
-                    <div class="iphone-mockup"></div>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
         </div>
     </header>
     <footer style="background: rgb(34, 34, 34);">
