@@ -46,8 +46,7 @@
                 </div>
                 <div class="col-lg-5 my-auto">
                     <div class="macbook-mockup"><img class="device" src="assets/img/macbook.svg">
-                        <div class="screen"><img src="assets/img/whatsapp%20logo.jpg"
-                                style="width: 370px;height: 232px;"></div>
+                        <div class="screen">
                     </div>
                 </div>
             </div>
